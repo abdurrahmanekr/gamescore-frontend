@@ -59,7 +59,7 @@ function App() {
 
     console.log('Şu anda bulunan user:', user);
 
-    socket = io('ws://localhost:8080/', {
+    socket = io('https://glacial-sands-13139.herokuapp.com', {
       extraHeaders: {
         'Authorization': `Bearer ${token}`,
       },
